@@ -1,0 +1,39 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  color: #eee;
+  background: linear-gradient(to bottom right, rgba(34, 34, 34, 0.4), rgba(31, 30, 30, 0.3)),
+    url("/public/img/project-3.webp");
+
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  position: relative; 
+}
+
+.header__title {
+  font-size: 8rem;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 62.5rem) {
+  .header__title {
+    font-size: 5rem;
+    position: absolute;
+    left: 20px;
+    bottom: 19rem;
+    text-align: left;
+  }
+
+  .navigation {
+    background-color: transparent;
+  }
+}

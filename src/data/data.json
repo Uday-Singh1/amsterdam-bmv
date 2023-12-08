@@ -1,0 +1,49 @@
+{
+  "images": [
+    { "id": 1, "src": "./img/project-1.webp", "alt": "Afbeelding 1" },
+    { "id": 2, "src": "./img/project-2.webp", "alt": "Afbeelding 2" },
+    { "id": 3, "src": "./img/project-3.webp", "alt": "Afbeelding 3" }
+  ],
+  "projecten": [
+    {
+      "id": 1,
+      "image": "./img/project-3.webp",
+      "text": "Overamstel: \n van industriegebied naar stadswijk en park."
+    },
+    {
+      "id": 2,
+      "image": "./img/project-2.webp",
+      "text": "Tekst voor project 2"
+    },
+    {
+      "id": 3,
+      "image": "./img/project-1.webp",
+      "text": "Tekst voor project 3"
+    },
+    {
+      "id": 4,
+      "image": "./img/amsterdam.webp",
+      "text": "Tekst voor project 4"
+    },
+    {
+      "id": 5,
+      "image": "./img/amsterdam.webp",
+      "text": "Tekst voor project 5"
+    },
+    {
+      "id": 6,
+      "image": "./img/amsterdam.webp",
+      "text": "Tekst voor project 6"
+    },
+    {
+      "id": 7,
+      "image": "./img/amsterdam.webp",
+      "text": "Tekst voor project 7"
+    },
+    {
+      "id": 8,
+      "image": "./img/amsterdam.webp",
+      "text": "Tekst voor project 8"
+    }
+  ]
+}

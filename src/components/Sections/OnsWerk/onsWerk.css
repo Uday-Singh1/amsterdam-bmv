@@ -1,0 +1,76 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 2rem;
+  }
+  
+  .project-item {
+    flex: 1 0 calc(20.3333% - 20px); /* Hier wordt 20px (2 * margin) afgetrokken van 30.3333% om ruimte voor marges toe te voegen */
+    box-sizing: border-box;
+    
+    position: relative;
+
+  }
+  
+  .image-with-text {
+    position: relative;
+ 
+  }
+  
+  .image-with-text img {
+    width: 100%;
+    max-width: 40rem;
+    height: 22rem;
+    border-radius: 5px;
+
+  }
+  
+  .image-with-text p {
+    color: white;
+    background-color: rgba(0, 0, 0, 70%);
+    text-align: left;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    bottom: 0.4rem;
+    white-space: pre-line;
+  }
+  
+  
+  @media screen and (max-width: 62.5rem) {
+    .project-list {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .project-item {
+      flex-basis: 100%;
+    }
+  
+    .image-with-text img {
+      max-width: 100%;
+
+    }
+  
+    .image-with-text p {
+      width: calc(100% - 20px);
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 70%);
+      text-align: left; 
+      justify-content: center;
+      width: 100%;
+      text-align: left;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      font-size: 16px;
+      bottom: 0.4rem;
+    }
+  }
+  

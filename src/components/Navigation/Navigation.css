@@ -1,0 +1,71 @@
+.navigation {
+  width: 100%;
+  padding: 4rem;
+  height: auto;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  background-color: transparent; /* Maak de achtergrond transparant */
+  position: absolute; /* Gebruik absolute positie om over de header te zweven */
+}
+
+.navigation__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.navigation__button {
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 12px 17px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 2.5rem;
+  text-decoration: none;
+  position: relative;
+
+  &:hover::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: underline-animation 0.3s ease;
+  }
+}
+
+@keyframes underline-animation {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.navigation__image img {
+  height: 10rem;
+  width: 10rem;
+  margin-left: 15px;
+}
+
+/* .main {
+  margin-top: 100px; /* Hier voeg je wat ruimte toe boven de hoofdinhoud */
+
+@media screen and (max-width: 62.5rem) {
+  .navigation__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .navigation__button {
+    font-size: 2.2rem;
+  }
+}

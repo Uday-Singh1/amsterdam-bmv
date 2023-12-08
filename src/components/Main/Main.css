@@ -1,0 +1,42 @@
+.main {
+    height: 110vh; 
+    padding: 2rem;
+
+  }
+
+  .Project__title{
+    font-size: 4rem;
+    position: relative;
+    height: 10rem;
+  }
+
+  .Werk__title{
+    font-size: 4rem;
+    position: relative;
+    top: 5rem;
+    height: 10rem;
+  }
+  
+  .Section__wrapper{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 62.5rem) {
+    .Project__title{
+      font-size: 4rem;
+      position: relative;
+      height: 10rem;
+      text-align: center;
+    }
+
+    .Werk__title{
+      font-size: 4rem;
+      position: relative;
+      top: 5rem;
+      height: 10rem;
+      text-align: center;
+    }
+
+  }
