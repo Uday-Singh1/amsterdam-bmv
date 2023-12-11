@@ -1,0 +1,65 @@
+.footer {
+    background: #605F5F;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footer__list-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 60%;
+    color: white;
+  }
+  
+  .footer__item {
+    display: flex;
+    flex-direction: column; /* Dit blijft voor het onder elkaar weergeven binnen een item */
+    margin-right: 20px;
+  }
+  
+  .footer__title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .footer__text {
+    margin: 0;
+  }
+  
+  .footer__link {
+    text-decoration: underline;
+    color: white;
+    padding-top: 1rem;
+  }
+  
+  @media screen and (max-width: 62.5rem) {
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 3rem;
+    }
+    .footer__list-container {
+      flex-direction: column; /* Onder elkaar weergeven in de mediaquery */
+    }
+  
+    .footer__item {
+      margin-right: 0; /* Optioneel: geen marge toevoegen bij onder elkaar weergeven */
+      margin-bottom: 20px; /* Optioneel: voeg wat ruimte toe tussen de items */
+    }
+  }
+  

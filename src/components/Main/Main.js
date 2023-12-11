@@ -3,6 +3,7 @@ import RightSectionFirst from "../Sections/afbeeldingen/afbeeldingen";
 import Werk from "../Sections/OnsWerk/OnsWerk";
 import "./Main.css";
 
+
 const Main = (props) => {
   return (
     <main class="main">
@@ -15,7 +16,10 @@ const Main = (props) => {
         
         <h3 className="Werk__title">Ons Werk</h3>
         <Werk />
-          </>
+       
+      </>
+      
+ 
     </main>
   );
 };

@@ -8,42 +8,50 @@
     {
       "id": 1,
       "image": "./img/project-3.webp",
-      "text": "Overamstel: \n van industriegebied naar stadswijk en park."
+      "text": "Overamstel: \n van industriegebied naar stadswijk en park.",
+      "title": "Overamstel: van industriegebied naar stadswijk en park"
     },
     {
       "id": 2,
       "image": "./img/project-2.webp",
-      "text": "Tekst voor project 2"
+      "text": "Overamstel: \n van industriegebied naar stadswijk en park.",
+      "title": "Overamstel: van industriegebied naar stadswijk en park"
     },
     {
       "id": 3,
       "image": "./img/project-1.webp",
-      "text": "Tekst voor project 3"
+      "text": "Tekst voor project 3",
+      "title": "Sportpark Goed Genoeg & Clubgebouw AFC"
     },
     {
       "id": 4,
-      "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 4"
+      "image": "./img/project-4.webp",
+      "text": "Tekst voor project 4",
+      "title": "Spinoza20first"
     },
     {
       "id": 5,
-      "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 5"
+      "image": "./img/project-5.webp",
+      "text": "Tekst voor project 5",
+      "title": "Renovatie Amsterdam Museum"
     },
     {
       "id": 6,
       "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 6"
+      "text": "Tekst voor project 6",
+      "title": "N.V.T"
     },
     {
       "id": 7,
       "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 7"
+      "text": "Tekst voor project 7",
+      "title": "N.V.T"
     },
     {
       "id": 8,
       "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 8"
+      "text": "Tekst voor project 8",
+      "title": "N.V.T"
     }
   ]
 }
