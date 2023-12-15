@@ -23,12 +23,13 @@
   width: 100%;
   max-width: 40rem;
   height: 22rem;
-  border-radius: 5px;
+  border-radius: 2rem;
 }
 
 .image-with-text p {
   color: white;
   background-color: rgba(0, 0, 0, 70%);
+  border-radius: 0rem 0rem 2rem 2rem;
   text-align: left;
   position: absolute;
   justify-content: center;
@@ -50,14 +51,15 @@
 .werk-article {
   flex-basis: 50%;
   box-sizing: border-box;
-  margin-top: 7rem;
-  padding: 5rem;
+  margin-top: 3rem;
+
  
 }
 
 .werk-article{
-  background: lightgray;
-  border-radius: 5px;
+  background-color: #ffffff;
+   border: solid 0.2rem  black;
+   border-radius: 2rem;
   height: 40rem;
   overflow: scroll;
 
@@ -66,16 +68,26 @@
 
 .werk-article h3{
   font-size: 3rem;
+  padding: 2rem;
 }
+
 
 .werk-article p{
-  padding-top: 3rem;
-  font-size: 2.2rem;
+  padding: 2rem;
+  font-size: 1.90rem;
 }
 
+/* .werk-article p{
+
+  font-size: 2.2rem;
+} */
+
 .werk-figure img {
-  height: 30rem;
-  width: 50rem;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  height: 40rem;
+  width: 70rem;
   border-radius: 5px;
 }
 
@@ -97,8 +109,7 @@
     justify-content: center;
     width: 100%;
     text-align: left;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 0rem 0rem 2rem 2rem;
     font-size: 16px;
     bottom: 0.4rem;
   }

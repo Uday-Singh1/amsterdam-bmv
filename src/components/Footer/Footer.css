@@ -26,7 +26,7 @@
   .footer__item {
     display: flex;
     flex-direction: column; /* Dit blijft voor het onder elkaar weergeven binnen een item */
-    margin-right: 20px;
+ 
   }
   
   .footer__title {

@@ -1,10 +1,10 @@
 .navigation {
   width: 100%;
   padding: 4rem;
-  height: auto;
+  height: 10rem;
   top: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   z-index: 1000;
   background-color: transparent; /* Maak de achtergrond transparant */
   position: absolute; /* Gebruik absolute positie om over de header te zweven */
@@ -17,13 +17,14 @@
 }
 
 .navigation__button {
-  margin-right: 15px;
+  margin-left: 9rem;
   cursor: pointer;
-  padding: 12px 17px;
+  padding-right: 12px 17px;
+  
   background-color: transparent;
   color: #ffffff;
   border: none;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-decoration: none;
   position: relative;
 
@@ -34,7 +35,7 @@
     width: 100%;
     background-color: #ffffff;
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     left: 0;
     animation: underline-animation 0.3s ease;
   }
@@ -49,23 +50,96 @@
   }
 }
 
-.navigation__image img {
-  height: 10rem;
-  width: 10rem;
-  margin-left: 15px;
+.navigation__image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
 }
 
-/* .main {
-  margin-top: 100px; /* Hier voeg je wat ruimte toe boven de hoofdinhoud */
+.navigation__image img{
+  height: 20rem;
+  width: 20rem;
+
+
+}
+
+
+
+
+/* Voeg dit toe aan het bestaande CSS-bestand */
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #e60000;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 
 @media screen and (max-width: 62.5rem) {
   .navigation__buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    display: none;
+    flex-direction: column; /* Verander de richting naar column */
+    align-items: flex-start;
+    position: absolute; /* Zorg ervoor dat het menu de volledige breedte van het scherm inneemt */
+    top: 5rem; /* Pas deze waarde aan op basis van je ontwerp */
+    right: 0;
+    padding: 1rem;
+    z-index: 1000;
   }
 
   .navigation__button {
     font-size: 2.2rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+ 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .navigation__button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+  }
+
+  .navigation__image img {
+    position: relative;
+    right: 4rem;
+  }
+
+  .navigation.open .navigation__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    z-index: 2000;
+  }
+
+  .navigation.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .navigation.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navigation.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 }
+

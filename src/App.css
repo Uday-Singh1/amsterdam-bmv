@@ -5,10 +5,11 @@
 }
 
 html {
-  font-size: 62.5%; /*1 rem wordt gelijk aan 10 px */
+  font-size: 62.5%; 
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   background: #ffffff;
   font-size: 1.6rem;
   height: 100vh;
