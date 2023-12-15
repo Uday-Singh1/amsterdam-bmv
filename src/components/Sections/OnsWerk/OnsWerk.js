@@ -1,13 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import jsonData from '../../../../src/data/data.json';
-import "./onsWerk.css";
+import './onsWerk.css';
 
 const Werk = (props) => {
   const [selectedProject, setSelectedProject] = useState(jsonData.projecten[0]);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [intervalId, setIntervalId] = useState(null);
 
   const handleProjectClick = (project) => {
     setSelectedProject(project);
+    setCurrentImageIndex(0);
+    startAutomaticChange(); // Start automatic change when a new project is selected
   };
+
+  const handleNextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % selectedProject.selectedimages.length);
+  };
+
+  const handlePrevImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? selectedProject.selectedimages.length - 1 : prevIndex - 1
+    );
+  };
+
+  const startAutomaticChange = () => {
+    clearInterval(intervalId);
+    setIntervalId(setInterval(handleNextImage, 7000));
+  };
+
+  useEffect(() => {
+    setCurrentImageIndex(0);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [selectedProject, intervalId]);
 
   return (
     <section className="werk-section">
@@ -34,8 +61,23 @@ const Werk = (props) => {
 
       {selectedProject && (
         <>
-          <figure className="werk-figure">
-            <img src={selectedProject.image} alt={`Afbeelding voor project ${selectedProject.id}`} />
+          <figure
+            className="werk-figure"
+            onMouseEnter={startAutomaticChange}
+          >
+            <img
+              src={selectedProject.selectedimages[currentImageIndex]}
+              alt={`Afbeelding voor project ${selectedProject.id}`}
+            />
+            <div className="slider-buttons">
+              {selectedProject.selectedimages.map((image, index) => (
+                <button
+                  key={index}
+                  className={`slider-button ${index === currentImageIndex ? 'active' : ''}`}
+                  onClick={() => setCurrentImageIndex(index)}
+                ></button>
+              ))}
+            </div>
           </figure>
 
           <article className="werk-article">

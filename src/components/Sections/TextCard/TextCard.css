@@ -58,14 +58,12 @@
       height: 60rem;
       position: relative;
       top: 65rem;
+      left: 2rem;
     }
 
     .section__text{
-
       text-align: center;
     }
-
-
 
     .article {
       display: flex;

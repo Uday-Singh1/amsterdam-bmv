@@ -1,6 +1,7 @@
 import TextCard from "../Sections/TextCard/TextCard";
 import RightSectionFirst from "../Sections/afbeeldingen/afbeeldingen";
 import Werk from "../Sections/OnsWerk/OnsWerk";
+import Organisatie from "../Sections/Organisatie/Organisatie";
 import "./Main.css";
 
 
@@ -14,9 +15,10 @@ const Main = (props) => {
         <RightSectionFirst />
         </ul>
         
-        <h3 className="Werk__title">Ons Werk</h3>
+        <h3 className="Main__titles">Ons Werk</h3>
         <Werk />
-       
+        <h3 className="Main__titles">Organisatie</h3>
+        <Organisatie />
       </>
       
  

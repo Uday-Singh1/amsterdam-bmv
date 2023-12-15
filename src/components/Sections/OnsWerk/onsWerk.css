@@ -61,20 +61,22 @@
    border: solid 0.2rem  black;
    border-radius: 2rem;
   height: 40rem;
+  padding: 4rem;
   overflow: scroll;
+  text-align: left;
 
 }
 
 
 .werk-article h3{
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 3.2rem;
+  padding: 1.5rem;
 }
 
 
 .werk-article p{
-  padding: 2rem;
-  font-size: 1.90rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
 }
 
 /* .werk-article p{
@@ -91,9 +93,65 @@
   border-radius: 5px;
 }
 
+/* Nieuwe stijlen voor de slider en knoppen */
+.werk-figure {
+  position: relative;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.slider-image {
+  flex: 0 0 100%; /* Adjust this width as needed */
+  box-sizing: border-box;
+}
+
+.slider-images > * {
+  margin-right: 15px; /* Adjust the spacing between images */
+}
+
+.slider-buttons {
+  position: absolute;
+  display: flex;
+  bottom: 20px; 
+  left: 45%;
+  transform: translateX(-50%);
+  width: calc(100% - 16px); 
+  justify-content: center;
+}
+
+/* Stijlen voor de knoppen */
+.slider-button {
+  background-color: #ffffff;
+  color: black; 
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 4px;
+  outline: none;
+  transition: background-color 0.3s ease; 
+}
+
+.active,
+.slider-button:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+
+
 @media screen and (max-width: 62.5rem) {
   .project-item {
-    flex: 1 0 100%; /* Set flex-basis to 100% for stacking on smaller screens */
+    flex: 1 0 100%; 
   }
 
   .image-with-text img {
@@ -120,6 +178,7 @@
     padding: 1rem;
     padding-top: 3rem;
     flex: 1 0 100%;
+    width: 100%;
 
   }
 
@@ -128,5 +187,15 @@
   }
   .werk-article {
     flex-basis: 100%;
+  }
+
+  .slider-button {
+    position: relative;
+    left: 2.90rem;
+
+  }
+
+  .slider-images {
+    flex-wrap: nowrap; 
   }
 }

@@ -10,11 +10,13 @@
     height: 10rem;
   }
 
-  .Werk__title{
+  .Main__titles{
     font-size: 4rem;
     position: relative;
-    top: 5rem;
-    height: 10rem;
+ 
+    height: 16rem;
+    gap: 2rem;
+    margin-top: 3rem;
   }
   
   .Section__wrapper{
@@ -34,10 +36,10 @@
       text-align: center;
     }
 
-    .Werk__title{
+    .Main__titles{
       font-size: 4rem;
       position: relative;
-      top: 5rem;
+   
       height: 10rem;
       text-align: center;
     }
