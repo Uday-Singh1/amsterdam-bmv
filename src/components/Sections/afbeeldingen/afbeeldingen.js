@@ -9,7 +9,7 @@ const RightSectionFirst = (props) => {
     <section className="section__right">
       {images.map((image) => (
         <figure key={image.id} className={`square__${image.id}`}>
-          <img src={image.src} alt={image.alt} />
+          <img src={process.env.PUBLIC_URL+image.src} alt={image.alt} />
         </figure>
       ))}
     </section>

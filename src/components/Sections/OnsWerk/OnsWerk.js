@@ -25,7 +25,7 @@ const Werk = (props) => {
 
   const startAutomaticChange = () => {
     clearInterval(intervalId);
-    setIntervalId(setInterval(handleNextImage, 7000));
+    setIntervalId(setInterval(handleNextImage, 4000));
   };
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const Werk = (props) => {
             <div className="image-with-text">
               {project.image ? (
                 <>
-                  <img src={project.image} alt={`Afbeelding voor project ${project.id}`} />
+                  <img src={process.env.PUBLIC_URL + project.image} alt={`Afbeelding voor project ${project.id}`} />
                   <p>{project.title}</p>
                 </>
               ) : (
@@ -59,33 +59,31 @@ const Werk = (props) => {
         ))}
       </ul>
 
-      {selectedProject && (
-        <>
-          <figure
-            className="werk-figure"
-            onMouseEnter={startAutomaticChange}
-          >
-            <img
-              src={selectedProject.selectedimages[currentImageIndex]}
-              alt={`Afbeelding voor project ${selectedProject.id}`}
-            />
-            <div className="slider-buttons">
-              {selectedProject.selectedimages.map((image, index) => (
-                <button
-                  key={index}
-                  className={`slider-button ${index === currentImageIndex ? 'active' : ''}`}
-                  onClick={() => setCurrentImageIndex(index)}
-                ></button>
-              ))}
-            </div>
-          </figure>
+      {selectedProject && selectedProject.selectedimages && selectedProject.selectedimages.length > 0 && (
+  <>
+    <figure className="werk-figure" onMouseEnter={startAutomaticChange}>
+      <img
+        src={`${process.env.PUBLIC_URL}/${selectedProject.selectedimages[currentImageIndex]}`}
+        alt={`Afbeelding voor project ${selectedProject.id}`}
+      />
+      <div className="slider-buttons">
+        {selectedProject.selectedimages.map((image, index) => (
+          <button
+            key={index}
+            className={`slider-button ${index === currentImageIndex ? 'active' : ''}`}
+            onClick={() => setCurrentImageIndex(index)}
+          ></button>
+        ))}
+      </div>
+    </figure>
 
-          <article className="werk-article">
-            <h3>{selectedProject.title}</h3>
-            <p>{selectedProject.text}</p>
-          </article>
-        </>
-      )}
+    <article className="werk-article">
+      <h3>{selectedProject.title}</h3>
+      <p>{selectedProject.text}</p>
+    </article>
+  </>
+)}
+
     </section>
   );
 };

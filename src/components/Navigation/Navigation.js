@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <nav className={`navigation ${menuOpen ? 'open' : ''}`}>
       <div className="navigation__image">
-        <img src="./img/amsterdam-logo.png" alt="Amsterdam" />
+        <img src={`${process.env.PUBLIC_URL}/img/amsterdam-logo.png`} alt="Amsterdam" />
       </div>
       <div className={`navigation__buttons ${menuOpen ? 'open' : ''}`}>
         <button className="navigation__button">Projecten</button>

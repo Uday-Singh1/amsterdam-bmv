@@ -18,12 +18,25 @@
     gap: 2rem;
     margin-top: 3rem;
   }
+
+  .Main__titles__work{
+    font-size: 4rem;
+    position: relative;
+ 
+ 
+    gap: 2rem;
+    margin-top: 3rem;
+  }
   
   .Section__wrapper{
     display: flex;
     list-style: none;
     flex-wrap: wrap;
 
+  }
+
+  .kombij-container{
+    margin-top: 10rem;
   }
 
   @media screen and (max-width: 62.5rem) {
@@ -42,6 +55,12 @@
    
       height: 10rem;
       text-align: center;
+    }
+
+    .Main__titles__work{
+      text-align: center;
+      position: relative;
+      top: 5rem;
     }
 
   }

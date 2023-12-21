@@ -25,11 +25,18 @@
 }
 
 @media screen and (max-width: 62.5rem) {
+
+  .header {
+    height: 100vh;
+    width: 100%;
+   
+  }
+
   .header__title {
     font-size: 5rem;
     position: absolute;
     left: 20px;
-    bottom: 19rem;
+    bottom: 14rem;
     text-align: left;
   }
 

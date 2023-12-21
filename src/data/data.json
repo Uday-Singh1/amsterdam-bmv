@@ -1,66 +1,66 @@
 {
   "images": [
-    { "id": 1, "src": "./img/project-1.webp", "alt": "Afbeelding 1" },
-    { "id": 2, "src": "./img/project-2.webp", "alt": "Afbeelding 2" },
-    { "id": 3, "src": "./img/project-3.webp", "alt": "Afbeelding 3" }
+    { "id": 1, "src": "/img/project-1.webp", "alt": "Afbeelding 1" },
+    { "id": 2, "src": "/img/project-2.webp", "alt": "Afbeelding 2" },
+    { "id": 3, "src": "/img/project-3.webp", "alt": "Afbeelding 3" }
   ],
 
   "projecten": [
     {
       "id": 1,
-      "image": "./img/project-3.webp",
-      "text": "Overamstel: \n van industriegebied naar stadswijk en park.",
-      "title": "Overamstel: van industriegebied naar stadswijk en park",
-      "selectedimages": ["./img/project-3.webp", "./img/project-5.webp", "./img/project-4.webp"]
+      "image": "/img/AFC.jpeg",
+      "text": "AFC: nieuwe velden, nieuw clubhuis In 2020 verzorgde een team van bouwmanagers van BMV vijf nieuwe kunstgrasvelden en een gloednieuw clubhuis voor AFC, de Amsterdamsche Football Club. Dit moest gebeuren om AFC in te passen in de almaar groeiende Zuidas. BMV begeleidde de verplaatsing van de velden en het clubhuis in noordelijke richting, om op de ‘oude’ locatie ruimte te maken voor een nieuwe woonwijk. De werkzaamheden vonden gefaseerd plaats, zodat er tijdens de bouw gewoon kon worden gevoetbald. Het nieuwe clubgebouw is in 2020 opgeleverd. In september 2022 zijn het sportpark en het clubgebouw officieel in gebruik genomen. www.afc.nl",
+      "title": "Sportpark Goed Genoeg & Clubgebouw AFC",
+      "selectedimages": ["./img/AFC.jpeg", "./img/AFC2.jpeg"]
     },
     {
       "id": 2,
-      "image": "./img/project-2.webp",
-      "text": "Overamstel: \n van industriegebied naar stadswijk en park.",
-      "title": "Overamstel: van industriegebied naar stadswijk en park",
-      "selectedimages": ["./img/project-2.webp", "./img/project-2.webp"]
+      "image": "/img/AICS.jpeg",
+      "text": "Vlak achter het VU-universiteitscomplex op de Zuidas is eind 2021 de Amsterdam International Community School (AICS) opgeleverd. BMV was vanaf het prille begin betrokken bij de bouw van de school: van het locatieonderzoek tot aan de oplevering. Het schoolgebouw van 16.000 vierkante meter biedt plek aan 1.400 basis- en middelbare schoolleerlingen. In het kader van duurzaamheid zijn diverse maatregelen getroffen. Zo is er een groen dak aangelegd en zijn er zonnepanelen geplaatst. De gevel is natuurinclusief,  over enkele jaren is deze verticale tuin begroeid met planten. Ook zijn er kasten voor huismussen en vleermuizen geplaatst. In het gebouw is een wandelement in de centrale hal over de gehele lengte, gemaakt van de gekapte bomen die plaats moesten maken voor het gebouw, een belangrijke sfeermaker. BMV stuurde het ontwerptraject aan, gaf vorm aan alle inkoopprocessen en vergunningtrajecten, organiseerde bewonersparticipatie en -communicatie, stemde af met de vele stakeholders in het gebied en verzorgde het contractmanagement met de aannemer. En zo groeide de AICS uit tot wat het nu is: een school die met succes is gebouwd, op tijd, binnen budget en met de gewenste kwaliteit. www.aics.espritscholen.nl",
+      "title": "Amsterdam International Community School (AICS): wereldschool in wereldstad.",
+      "selectedimages": ["./img/AICS.jpeg", "./img/AICS2.jpeg","./img/AICS3.jpeg", "./img/AICS4.jpeg"]
     },
     {
       "id": 3,
-      "image": "./img/project-1.webp",
-      "text": "Tekst voor project 3",
-      "title": "Sportpark Goed Genoeg & Clubgebouw AFC",
-      "selectedimages": ["./img/project-3.webp", "./img/project-4.webp"]
+      "image": "/img/Amsterdam-Museum.jpeg",
+      "text": "Het nieuwe Amsterdam Museum wordt een publieksvriendelijke plek waar bezoekers en bewoners Amsterdam leren kennen, in een museumgebouw dat in verbinding staat met de buurt, de stad en haar bewoners. Het ontwerp voor het nieuwe Amsterdam Museum is gebaseerd op uitvoerig onderzoek naar de ontstaansgeschiedenis van het monument, naar mogelijk hergebruik van materialen uit het verleden en naar inbedding in het middeleeuwse hart van de binnenstad. Met inventieve oplossingen verandert het gesloten monument in een open museum: met aandacht voor de geschiedenis van het gebouw en de plek. Dankzij de renovatie zal het gebouw bovendien voldoen aan actuele duurzaamheidseisen. De voorbereidingen van de renovatie zijn inmiddels in volle gang. BMV begeleidt de gehele renovatie, van haalbaarheidsonderzoek tot de oplevering en opening van het nieuwe museum. Ontwerp: Neutelings Riedijk Architecten",
+      "title": "Amsterdam Museum: renovatie in voorbereiding",
+      "selectedimages": ["./img/Amsterdam-Museum.jpeg", "./img/Amsterdam-Museum2.jpeg","./img/Amsterdam-Museum3.jpeg", "./img/Amsterdam-Museum4.jpeg", "./img/Amsterdam-Museum5.jpeg"]
     },
     {
       "id": 4,
-      "image": "./img/project-4.webp",
-      "text": "Tekst voor project 4",
-      "title": "Spinoza20first",
-      "selectedimages": ["./img/project-3.webp", "./img/project-4.webp"]
+      "image": "/img/Bostheater.png",
+      "text": "Op dinsdag 23 mei 2023 vond de officiële opening plaats van het grootste openluchttheater van Nederland: het Bostheater. Het Bostheater is gebouwd in de jaren ’50 en voldeed niet meer aan de eisen van de huidige tijd. BMV bereidde de besluitvorming voor die geleid heeft tot het besluit om het Bostheater te renoveren. Na het besluit verzorgde en begeleidde het BMV de ontwerp- en bouwwerkzaamheden.  Het ontwerp is in een multidisciplinaire bouwteam zorgvuldig uitgewerkt. De focus van de bouwwerkzaamheden lag op de renovatie en restauratie van de betonnen onderdelen, waar mogelijk het herstellen van het oorspronkelijke landschapsontwerp en het plaatsen van nieuwbouw voor kleed-, opslag- en techniekruimten. Tevens is de theaterinfrastructuur grotendeels vernieuwd en uitgebreid. Op deze wijze is het theater omgetoverd tot een moderne cultuuroase, die voldoet aan de eisen en wensen van de huidige tijd en daarmee weer vele jaren tegemoet kan gaan. www.bostheater.nl",
+      "title": "Renovatie Bostheater",
+      "selectedimages": ["./img/Bostheater.png", "./img/Bostheater2.png","./img/Bostheater3.png"]
     },
     {
       "id": 5,
-      "image": "./img/project-5.webp",
-      "text": "Tekst voor project 5",
-      "title": "Renovatie Amsterdam Museum",
-      "selectedimages": ["./img/project-3.webp", "./img/project-4.webp"]
+      "image": "/img/Werven.jpeg",
+      "text": "In Amsterdam zorgen meer dan 2500 ambtenaren  elke dag voor de reiniging, de handhaving, de afvalinzameling en het dagelijks onderhoud van de openbare ruimte van de stad inclusief de kades en de bruggen en het groen. Zij werken vanuit 37 locaties in de stad. Sinds 2019 en ook nog de komende jaren werken 12 bouwmanagers van Team BMV met andere collega’s van de gemeente samen om die 37 werklocaties in de stad samen te voegen tot 23. Deze nieuwe uitvoeringslocaties moeten optimaal zijn: slim ruimtegebruik, duurzaamheid en toekomstbestendigheid zijn leidend. Er wordt ook gekeken naar het verminderen van vervoerbewegingen en de mogelijkheid van vervoer over water. Belangrijk uitgangspunt is het bieden van een prettige werkomgeving en de juiste faciliteiten aan de mensen die het zware werk doen voor de stad. Er wordt hard gewerkt om in 2027 alle 23 nieuwe locaties gereed te hebben.",
+      "title": "Verbouwing en Nieuwbouw Werven en Overslagpunten",
+      "selectedimages": ["./img/Werven.jpeg", "./img/Werven2.jpeg","./img/Werven3.jpeg","./img/Werven4.png"]
     },
     {
       "id": 6,
-      "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 6",
-      "title": "N.V.T",
-      "selectedimages": ["./img/project-3.webp", "./img/project-4.webp"]
+      "image": "/img/Slavernijmuseum3.png",
+      "text": "Nederland krijgt een eigen Nationaal Slavernijmuseum. Over een paar jaar zal het museum zijn deuren openen voor het publiek. Het trans-Atlantische slavernijverleden vormt het uitgangspunt voor het museum, met onder andere veel aandacht voor de Indisch-Oceanische slavernij. Inhoudelijk zal het museum zich richten op een breed publiek, met een focus op educatie, kunst, kennis en onderzoek. Het initiatief wordt mede mogelijk gemaakt door steun van het ministerie van  Onderwijs, Cultuur & Wetenschap (OCW). Dit historische en grote project wordt opgezet door drie kwartiermakers (Maatschappelijk, Museaal en Fysiek) die de handen ineenslaan. Vanuit de afdeling BMV is de kwartiermaker fysiek bij het project geleverd. Hij werkt met de twee andere kwartiermakers mee aan alle benodigde producten voor de verdere besluitvorming in het project. Meer weten? https://www.amsterdam.nl/diversiteit/nationaal-slavernijmuseum/",
+      "title": "Kwartiermaker Nationaal Slavernijmuseum",
+      "selectedimages": ["./img/Slavernijmuseum3.png", "./img/Slavernijmuseum.jpeg","./img/Slavernijmuseum2.jpeg"]
     },
     {
       "id": 7,
-      "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 7",
-      "title": "N.V.T",
-      "selectedimages": ["./img/project-3.webp", "./img/project-4.webp"]
+      "image": "/img/Wereldburger.jpeg",
+      "text": "Het gebouw van basisschool De Wereldburger in Amsterdam Nieuw-West (Osdorp) dateerde uit de jaren ’60. Grootschalige renovatie was nodig om het te laten voldoen aan de huidige onderwijskundige en technische eisen. Een team van BMV verzorgde de renovatie. Het gebouw werd gesloopt tot op het betoncasco en vanaf daar weer opgebouwd. Bij de renovatie was hergebruik een belangrijk uitgangspunt. Waar mogelijk werden materialen uit het oorspronkelijke schoolgebouw gebruikt, evenals materialen uit andere panden. Het resultaat mag er zijn en de vernieuwde Wereldburger viel al snel in de prijzen. In 2022 werd het gebouw bekroond met de publieksjuryprijs bij de jaarlijkse Amsterdamse Architectuurprijs en won het de NRP Gulden Fenix (de nationale prijs voor voorbeeldprojecten in renovatie en transformatie) in de categorie ‘renovatie’. www.bsdewereldburger.nl",
+      "title": "Renovatie de Wereldburger",
+      "selectedimages": ["./img/Wereldburger.jpeg", "./img/Wereldburger2.jpeg"]
     },
     {
       "id": 8,
-      "image": "./img/amsterdam.webp",
-      "text": "Tekst voor project 8",
-      "title": "N.V.T",
-      "selectedimages": ["./img/project-3.webp", "./img/project-4.webp"]
+      "image": "/img/nieuwbouw.jpeg",
+      "text": "Waar ooit de parkeergarage van de voormalige Bijlmerbajes stond, zorgde een team van BMV voor de realisatie van nieuwbouw van de Spinoza20First-school en Sporthal Bajeskwartier, met daaraan gekoppeld een jongerencentrum. Deze middelbare school biedt plek aan 1.000 tot 1.200 leerlingen. De sporthal bestaat uit drie zalen. Deze worden op doordeweekse dagen overdag gebruikt door Spinoza20First en in de avonden en weekenden door verenigingen. Bij de ontwikkeling van de school en de sporthal besteedde BMV veel aandacht aan duurzaamheid. Zo is het gebouw flexibel indeelbaar, heeft het een lichte constructie en is bij de bouw gebruik gemaakt van duurzame materialen. Verder is het gebouw aangesloten op de warmte/koude-opslaginstallatie (voor verwarming in de winter en verkoeling in de zomer) van het gebied Bajeskwartier. Het dak van de school – met daarop het schoolplein – bevat veel groen, dat bijdraagt aan het vasthouden van regenwater. Op het dak van de sporthal bevinden zich hiernaast zonnepanelen. www.spinoza20first.nl",
+      "title": "Nieuwbouw Spinoza20first",
+      "selectedimages": ["./img/nieuwbouw.jpeg", "./img/nieuwbouw2.jpeg","./img/nieuwbouw3.jpeg"]
     }
   ],
 

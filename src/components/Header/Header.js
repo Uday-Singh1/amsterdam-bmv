@@ -2,9 +2,9 @@ import "./Header.css";
 
 const Header = (props) => {
   return (
-    <header class="header">
+    <header className="header">
       <>
-      <h3 class="header__title">
+      <h3 className="header__title">
         BMV <br />
         AMSTERDAM
       </h3>
