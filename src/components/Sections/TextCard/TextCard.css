@@ -69,9 +69,9 @@
   
     .article__image {
       position: relative;
-      top: 1rem;
+      top: 3.5rem;
       width: 2rem;
-      height: 7rem;
+      height: 6.8rem;
       object-fit: cover;
     }
   

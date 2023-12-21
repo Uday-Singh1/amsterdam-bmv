@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%; 
+  height: -webkit-fill-available;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -14,12 +15,10 @@ body {
   font-size: 1.6rem;
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  height: -webkit-fill-available;
 }
 
 @media screen and (max-width:62.5rem) {
   
-  body{
-    overflow-x: hidden;
-  }
+
 }
