@@ -47,12 +47,9 @@
   
   @media only screen and (max-width: 62.5rem) {
     .section__right {
+      width: 33rem;
       display: flex;
-      flex-direction: column;
-      width: 100%;
-      position: relative;
-      bottom: 67rem;
-      right: -0.5rem;
+      justify-content: center;
     }
   
     .square__1,

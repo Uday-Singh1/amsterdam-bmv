@@ -32,7 +32,7 @@
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-
+    width: 100%;
   }
 
   .kombij-container{
@@ -45,7 +45,7 @@
     .Project__title{
       font-size: 4rem;
       position: relative;
-      height: 10rem;
+      height: 7rem;
       text-align: center;
     }
 
@@ -62,5 +62,16 @@
       position: relative;
       top: 5rem;
     }
+
+    .Section__wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      flex-wrap: wrap;
+      width: 100%;
+      flex-direction: column-reverse;
+    }
+  
 
   }
