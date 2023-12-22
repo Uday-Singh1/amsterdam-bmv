@@ -13,7 +13,7 @@
 .navigation__buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 8rem;
 }
 
 .navigation__button {

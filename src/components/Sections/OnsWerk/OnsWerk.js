@@ -17,12 +17,6 @@ const Werk = (props) => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % selectedProject.selectedimages.length);
   };
 
-  const handlePrevImage = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? selectedProject.selectedimages.length - 1 : prevIndex - 1
-    );
-  };
-
   const startAutomaticChange = () => {
     clearInterval(intervalId);
     setIntervalId(setInterval(handleNextImage, 4000));
@@ -60,29 +54,29 @@ const Werk = (props) => {
       </ul>
 
       {selectedProject && selectedProject.selectedimages && selectedProject.selectedimages.length > 0 && (
-  <>
-    <figure className="werk-figure" onMouseEnter={startAutomaticChange}>
-      <img
-        src={`${process.env.PUBLIC_URL}/${selectedProject.selectedimages[currentImageIndex]}`}
-        alt={`Afbeelding voor project ${selectedProject.id}`}
-      />
-      <div className="slider-buttons">
-        {selectedProject.selectedimages.map((image, index) => (
-          <button
-            key={index}
-            className={`slider-button ${index === currentImageIndex ? 'active' : ''}`}
-            onClick={() => setCurrentImageIndex(index)}
-          ></button>
-        ))}
-      </div>
-    </figure>
+        <>
+          <figure className="werk-figure" onMouseEnter={startAutomaticChange}>
+            <img
+              src={`${process.env.PUBLIC_URL}/${selectedProject.selectedimages[currentImageIndex]}`}
+              alt={`Afbeelding voor project ${selectedProject.id}`}
+            />
+            <div className="slider-buttons">
+              {selectedProject.selectedimages.map((image, index) => (
+                <button
+                  key={index}
+                  className={`slider-button ${index === currentImageIndex ? 'active' : ''}`}
+                  onClick={() => setCurrentImageIndex(index)}
+                ></button>
+              ))}
+            </div>
+          </figure>
 
-    <article className="werk-article">
-      <h3>{selectedProject.title}</h3>
-      <p>{selectedProject.text}</p>
-    </article>
-  </>
-)}
+          <article className="werk-article">
+            <h3>{selectedProject.title}</h3>
+            <p>{selectedProject.text}</p>
+          </article>
+        </>
+      )}
 
     </section>
   );

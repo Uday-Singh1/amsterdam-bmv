@@ -23,7 +23,7 @@ class Kombij extends React.Component {
               </div>
             </article>
             <div className="button-wrapper">
-              <a href="https://www.amsterdam.nl/pmb/expertise/bmv/werken/" className="solliciteer__button">Solliciteer</a>
+              <a target='_blank' rel="noreferrer" href="https://www.amsterdam.nl/pmb/expertise/bmv/werken/" className="solliciteer__button">Solliciteer</a>
             </div>
           </section>
 

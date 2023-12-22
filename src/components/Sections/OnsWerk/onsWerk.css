@@ -17,6 +17,7 @@
 .image-with-text {
   position: relative;
   cursor: pointer;
+  
 }
 
 .image-with-text img {
@@ -24,7 +25,16 @@
   max-width: 40rem;
   height: 22rem;
   border-radius: 2rem;
+ 
 }
+
+
+.image-with-text:hover p {
+  background-color: rgba(0, 0, 0, 90%); /* Adjust the background color on hover */
+}
+
+
+
 
 .image-with-text p {
   color: white;
@@ -38,7 +48,9 @@
   font-size: 1.7rem;
   bottom: 0.4rem;
   white-space: pre-line;
+  transition: 0.2s ease-in;
 }
+
 
 .werk-section {
   display: flex;
@@ -52,6 +64,8 @@
   flex-basis: 50%;
   box-sizing: border-box;
   margin-top: 3rem;
+
+
 
  
 }
@@ -91,9 +105,11 @@
   height: 40rem;
   width: 70rem;
   border-radius: 5px;
-  
 
+  
 }
+
+
 
 /* Nieuwe stijlen voor de slider en knoppen */
 .werk-figure {
