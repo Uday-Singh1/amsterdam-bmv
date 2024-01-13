@@ -1,5 +1,6 @@
 .main {
     height: auto; 
+    width: auto;
     padding: 2rem;
 
   }
@@ -13,7 +14,6 @@
   .Main__titles{
     font-size: 4rem;
     position: relative;
- 
     height: 16rem;
     gap: 2rem;
     margin-top: 3rem;
@@ -22,8 +22,6 @@
   .Main__titles__work{
     font-size: 4rem;
     position: relative;
- 
- 
     gap: 2rem;
     margin-top: 3rem;
   }

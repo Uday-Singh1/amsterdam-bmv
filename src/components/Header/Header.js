@@ -5,8 +5,8 @@ const Header = (props) => {
     <header className="header">
       <>
       <h3 className="header__title">
-        BMV <br />
-        AMSTERDAM
+        Projectmanagementbureau <br />
+        Bouwmanagement en Maatschappelijk Vastgoed
       </h3>
 
       </>
