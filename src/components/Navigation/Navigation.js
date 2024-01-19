@@ -17,7 +17,7 @@ const Navigation = () => {
         <a href="#projecten" className="navigation__button">Ons werk</a>
         <a href="#organisatie" className="navigation__button">Organisatie</a>
         <a href="#werken" className="navigation__button">Werken bij</a>
-        <a href="https://www.amsterdam.nl/pmb/contact/" target='_blank' rel="noreferrer" className="navigation__button">Contact</a>
+        <a href="#contact" className="navigation__button">Contact</a>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
         <div className="bar"></div>

@@ -1,0 +1,94 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 20rem;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+
+   
+}
+
+article {
+
+    flex: 1;
+
+}
+
+h2 {
+    color: #333;
+}
+
+address {
+   
+    margin-bottom: 20px;
+}
+
+.address h3, .email h3 {
+    color: #555;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.map {
+    margin-top: 20px;
+    border: none;
+ 
+    
+}
+
+.map-iframe{
+    height: 40rem;
+    width: 100%;
+    position: relative;
+    right: 2rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 62.5rem) {
+    .contact-container {
+        justify-content: center;
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center;
+        width: 100%;
+        gap: 1rem; /* Adjust the gap for smaller screens */
+        margin-top: 5rem; /* Adjust top margin for smaller screens */
+    }
+
+    article {
+        flex: 1;
+        margin-right: 0; /* Remove right margin for smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing between articles */
+    }
+
+
+    .map-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        left: 2rem;
+    
+    }
+    
+    .map{
+        height: 50rem;
+        width: 100%;
+    }
+
+    .map-iframe{
+
+        height: 40rem;
+        width: 100%;
+    }
+
+}

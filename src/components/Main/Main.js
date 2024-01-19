@@ -3,6 +3,7 @@ import RightSectionFirst from "../Sections/afbeeldingen/afbeeldingen";
 import Werk from "../Sections/OnsWerk/OnsWerk";
 import Organisatie from "../Sections/Organisatie/Organisatie";
 import Kombij from "../Sections/kom-bij/kom-bij";
+import Contact from "../Sections/contact/Contact";
 import "./Main.css";
 
 
@@ -22,6 +23,8 @@ const Main = (props) => {
         <Organisatie />
         <h3 id='werken'className="Main__titles__work">Werken bij</h3>
         <Kombij />
+        <h3 id='contact'className="Main__titles__work">Contact</h3>
+        <Contact />
       </>
       
  

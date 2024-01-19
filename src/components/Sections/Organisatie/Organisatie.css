@@ -37,7 +37,7 @@
   @media screen and (max-width: 62.5rem) {
     .organ__article {
       display: flex;
-      width: 100%;
+      width: 33rem;
       height: auto;
       border: solid 0.2rem black;
       overflow-y: auto;

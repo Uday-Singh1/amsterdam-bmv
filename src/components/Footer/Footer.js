@@ -19,7 +19,6 @@ const Footer = (props) => {
           <li className="footer__item">
             <h6 className="footer__title">Volg het ProjectManagement Bureau</h6>
             <p className="footer__text">PMB is bereikbaar op werkdagen tussen 8.30 - 17.30 uur.</p>
-            <a target='_blank' rel="noreferrer" href="https://twitter.com/PMB020" className="footer__link">X</a>
             <a target='_blank' rel="noreferrer" href="http://www.linkedin.com/company/projectmanagement-bureau" className="footer__link">Linkedin</a>
           </li>
         </ul>
@@ -31,7 +30,7 @@ const Footer = (props) => {
             <h6 className="footer__title">Over deze site</h6>
             <a target='_blank' rel="noreferrer" href="https://amsterdam.nl/pmb/algemene-onderdelen/colofon/" className="footer__link">Colofon</a>
             <a target='_blank' rel="noreferrer" href="https://www.amsterdam.nl/pmb/algemene-onderdelen/proclaimer-copyright/" className="footer__link">Proclaimer en Copyright </a>
-            <a target='_blank' rel="noreferrer" href="https://www.amsterdam.nl/pmb/algemene-onderdelen/sitemap/" className="footer__link"> Sitemap  </a>
+            <a target='_blank' rel="noreferrer" href="https://www.amsterdam.nl/pmb/algemene-onderdelen/sitemap/" className="footer__link"> Sitemap </a>
           </li>
         </ul>
       </section>
