@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/amsterdam-bmv/static/css/main.a74a0a4b.css",
+    "main.css": "/amsterdam-bmv/static/css/main.24f534fa.css",
     "main.js": "/amsterdam-bmv/static/js/main.240c28b5.js",
     "static/media/project-3.webp": "/amsterdam-bmv/static/media/project-3.8d5e0ccbad68a2b67399.webp",
     "index.html": "/amsterdam-bmv/index.html",
-    "main.a74a0a4b.css.map": "/amsterdam-bmv/static/css/main.a74a0a4b.css.map",
+    "main.24f534fa.css.map": "/amsterdam-bmv/static/css/main.24f534fa.css.map",
     "main.240c28b5.js.map": "/amsterdam-bmv/static/js/main.240c28b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a74a0a4b.css",
+    "static/css/main.24f534fa.css",
     "static/js/main.240c28b5.js"
   ]
 }
